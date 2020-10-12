@@ -1,0 +1,57 @@
+#countdown p, #hero p{
+    width: 80%;
+    margin: auto;
+}
+#countdown-timer {
+    margin: 30px auto;
+}
+#countdown-timer>div {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    margin: 0 2.5px;
+    border: 1px solid;
+    border-radius: 50%;
+}
+#countdown-timer .cdt-item{
+    display: block;
+    padding: 5px;
+    font-size: 150%;
+    font-weight: 600;
+}
+#countdown-timer .smalltext{
+    color: #cdcdcd;
+    letter-spacing: 0px;
+    font-size: 80%;
+}
+#countdown-timer h5{
+    font-weight: 700;
+    width: 50%;
+    margin: auto;
+    letter-spacing: .5px;
+}
+.modal-dialog{
+    height: 600px;
+}
+.modal-content,
+.register-form{
+    width: 100%;
+    height: 100%;
+}
+.modal-title{
+    font-weight: 900;
+    color: #454545;
+    text-transform: uppercase;
+    margin: auto;
+ 
+}
+.modal-footer button{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: ;
+}
+#calendar{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}

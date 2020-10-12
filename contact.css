@@ -1,0 +1,68 @@
+#cntct-lnk{box-shadow: 10px 10px #676767}
+.lnk{
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+    color: #676767;
+    letter-spacing: 2px;
+    border: 0.125px solid;
+}
+#counseling{
+    background-image: url('../img/counseling.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #dfdfdf;
+}
+
+#prayer{
+    background-image: url('../img/prayer.jpg');
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    color: #dfdfdf;
+}
+
+#testimony{
+    background-image: url('../img/testimony.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #dfdfdf;
+}
+
+#enquiries{
+    background-image: url('../img/enquiry.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #dfdfdf;
+}
+
+#counseling>div, #prayer>div, #testimony>div, #enquiries>div{
+    height: 100%;
+    width: 100%;
+    background: rgba(61, 61, 61, 0.5);
+    padding-top: 75px;
+    padding-bottom: 75px;
+    text-align: center;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    background: #dfdfdfcc;
+    border: none;
+}
+input[type=checkbox]{
+    border: 2px solid 
+}
+#enquiries .row>div{
+    margin-bottom: 30px;
+}
+.top{
+    display: block;
+    margin-top: 30px;
+}
+.enq-phone a{display: block;}

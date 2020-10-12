@@ -1,0 +1,50 @@
+#live {
+    padding-top: 85px;
+    padding-bottom: 50px;
+    background-image: linear-gradient(to bottom right, #000000d3, #000000f1);
+    color: #c2c2c2;
+    text-align: center;
+}
+#live .screen {
+    width: 100%;
+    height: 320px;
+    background-image: url('../img/altar.jpg');
+}
+#live .subscribe{
+    display: inline-block;
+    margin: 35px auto 0;
+}
+.subscribe p{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+#videos{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.video{padding: 10px}
+.vid{
+    /* border: 1px solid; */
+}
+.vid iframe{
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (min-width: 768px){
+    #live .screen {
+        height: 480px;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    #live .screen {
+        height: 640px;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    #live .screen {
+        height: 720px;
+    }
+}

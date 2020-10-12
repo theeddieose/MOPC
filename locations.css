@@ -1,0 +1,49 @@
+#hero input[type=text]{
+    padding: 10px;
+    border: none;
+    margin-right: 5px;
+    min-width: 250px;
+}
+#branches,
+#headquarters,
+#service-times,
+#specials{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#headquarters img{
+    width: 100%;
+    height: 100%;
+}
+#headquarters iframe{
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+}
+#headquarters .address{
+    padding: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#service-times{
+    background-image: linear-gradient(to bottom, #ebdec544, #ebd98936);
+}
+#service-times h4,
+#specials h4{
+    text-transform: uppercase;
+    font-size: 110%;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+#service-times li,
+#specials li{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+span{
+    padding-left: 10px;
+    margin-left: 10px;
+    border-left: 1px solid;
+}

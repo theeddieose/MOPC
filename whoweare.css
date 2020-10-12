@@ -1,0 +1,38 @@
+#vision ul,
+#goal ul{padding-left: 15px;}
+#vision li,
+#goal li{margin-bottom: 10px;}
+.mission, .vision, .goal{
+    padding: 50px;
+    /* background-image: url('../img/prayer.jpg');
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed; */
+}
+.bible-text{
+    border-left: 5px solid;
+    border-color: #ccad24;
+    padding: 10px 10px 10px 30px;
+    margin-top: 20px;
+}
+.bible-text span{
+    display: block;
+    padding-top: 5px;
+    text-align: right;
+    font-weight: 600;
+}
+.image {
+    background-image: url('../img/prayer.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+
+#vision {
+    background-image: linear-gradient(to bottom, #ebdec544, #ebd98936);
+}
+
+@media only screen and (min-width: 576px){
+    #vision {
+        background-image: linear-gradient(to bottom, #ebdec544, #ebd98936);
+    }
+}

@@ -1,0 +1,17 @@
+#beliefs{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#beliefs tr{
+    margin: 20px auto;
+}
+#beliefs th {
+    display: block;
+    width: 100%;
+    padding: 25px 20px;
+}
+#beliefs td{
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+}

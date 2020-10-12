@@ -1,0 +1,169 @@
+.new,
+#countdown,
+#blogroll,
+.str-pk-text,
+.fellowship,
+#testimonials {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+/* Carousel */   
+#main-carousel {
+    overflow: hidden;
+}
+#main-carousel img{
+    width: 100%;
+}
+.carousel-caption {
+    padding: 0;
+    margin-bottom: 10px;
+}
+.carousel-caption h2 {
+    font-family: 'Montserrat';
+    font-size: 100%;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 200;
+    margin-bottom: 40px;
+    text-shadow: 0px 0px 10px #212121;
+}
+.carousel-caption strong{
+    display: block;
+    font-size: 150%;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+.carousel-caption .button{
+    /* display: block; */
+    padding: 5px 10px; 
+    background: #1a1a1ac7;
+    width: 60%;
+    margin: 25px auto 0;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 300;
+    color: #cdcdcd;
+    text-align: center;
+    border-radius: 5px;
+}
+.carousel-indicators{margin-bottom: 0}
+
+/* New Convert */
+#new p{
+    width: 70%;
+    margin: auto;
+}
+
+/* Countdown */
+#countdown {
+    background-image: linear-gradient(45deg, #cdcdcd, #453738);
+    color: white;
+    text-align: center;
+}
+#countdown p{
+    width: 70%;
+    margin: auto;
+    line-height: ;
+}
+#countdown-timer {
+    margin: 30px auto;
+}
+#countdown-timer>div {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    margin: 0 2.5px;
+    border: 1px solid;
+    border-radius: 50%;
+}
+#countdown-timer h5{
+    font-weight: 700;
+    width: 50%;
+    margin: auto;
+    letter-spacing: .5px;
+}
+#countdown .cdt-item{
+    display: block;
+    padding: 5px;
+    font-size: 150%;
+    font-weight: 600;
+}
+#countdown .smalltext{
+    color: #cdcdcd;
+    letter-spacing: 0px;
+    font-size: 80%;
+}
+
+/* Fellowship */
+#fellowship{height: 400px;}
+.map-container{height: 100%;}
+iframe{
+    height: 100%;
+    width: 100%;
+}
+.fellowship {
+    position: absolute;
+    margin-top: -400px;
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(to bottom, #000000ef 0%, rgba(255, 255, 255, 0) 150%);
+    color: #e7e7e7;
+}
+.fellowship p{
+    width: 70%;
+    margin: auto;
+}
+#blogroll {
+    background-color: #ebebeb;
+}
+#blogroll h5{margin-bottom: 10px;}
+
+/* Testimonials */
+#testimonials {
+    text-align: center;
+    background-image: url('../img/prayer.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+}
+#testimonials h3{
+    color: #ebebeb;
+}
+.testimony-box{
+    padding: 20px;
+}
+.tbox{
+    background-color: #ebebeb;
+    padding: 25px;
+    color: #1d1d1d
+
+}
+
+/* Store Peek */
+#store-peek .container {
+    padding-right:0;
+}
+#store-peek .carousel-item{
+    height: 480px;
+}
+#store-peek img {
+    height: 100%;
+}
+
+@media only screen and (min-width: 576px){
+    .carousel-caption {
+        margin-bottom: 70px;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .carousel-caption {
+        margin-bottom: 400px;
+    }
+    .carousel-caption h2 {
+        font-size: 350%;
+    }
+}
